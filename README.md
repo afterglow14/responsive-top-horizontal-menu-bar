@@ -1,4 +1,5 @@
 # responsive-top-horizontal-menu-bar
+A simple way to create an horizonta navigation menue bar on top
 
 # USAGE
 Anyone can fork, copy, use, share, distribute, and modify the source code of this repository for free.
