@@ -1,0 +1,54 @@
+<html>
+
+<head>
+      <title></title>
+
+      <!-- this code removes all the underline of existing link on this document -->
+      <style TYPE="text/css"><!-- a:link, a:visited, a:active {text-decoration:none} --></style> 
+
+
+<style type="text/css"> /* Beginning of CSS */
+	
+	body {
+		margin: 0;
+	}
+	li.topNav {
+		float: left; /* this makes the top navigation list to align horizontally, if this code does not exist the list will only going to be stacked vertically */
+		list-style-type: none; /* remove any bullets, numbers, roman numerals, etc into your list */
+	}
+	ul.topContainer {
+		overflow: hidden; /* without this code the codes "width: 100%" and "background-color: gray" will not take effect in the container of top navigation */
+		width: 100%;
+		background-color: #4CAF50; /* background color of the top menu bar container */
+		padding: 16px 16px 16px 0px; /* creates space arount the unordered list */
+	}
+	li.topNav a.topLink:hover {
+		background-color: white; /* change the background color of list to white when the mouse pointer hovers over the list */
+		color: black; /* change text color of the list to white when the mouse pointer hovers over the list */
+		padding: 16px 16px 16px 16px; /* this will create space arount the list */
+	}
+	.topLink {
+		font-family: helvetica; /* font style of top navigation links */
+		color: white; /* text color of top navigation links */
+		padding: 16px 16px 16px 16px; /* padding of top navigation links */
+	}
+	
+</style> <!-- Ending of CSS -->
+
+</head>
+
+<body>
+
+
+<!-- Beginning of creating the menu bar container and contents (list) -->
+<ul class="topContainer">
+<li class="topNav"><a class="topLink">Home</a></li>
+<li class="topNav"><a class="topLink">Register</a></li>
+<li class="topNav"><a class="topLink">Confirm</a></li>
+<li class="topNav"><a class="topLink">Members</a></li>
+<li class="topNav"><a class="topLink">Log in</a></li>
+<!-- Ending of creating the menu bar container and contents (list) -->
+
+
+</body>
+</html>
